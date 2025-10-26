@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Order - Brew Haven Coffee</title>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  	<header>
+    		<nav class="navbar section-content">
+      			<a href="#" class="nav-logo">
+        			<h2 class="logo-text">Brew Haven Coffee ☕</h2>
+      			</a>
+      			<ul class="nav-menu">
+        			<li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+        			<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        			<li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+        			<li class="nav-item"><a href="feedback.html" class="nav-link">Feedbacks</a></li>
+        			<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+        			<li class="nav-item"><button id="logoutBtn" class="logout-button">Logout</button></li>
+      			</ul>
+    		</nav>
+  	</header>
+  	<section class="contact-section" id="order">
+    		<h2 class="section-title">Place Your Order</h2>
+   		<div class="section-content">
+      			<ul class="contact-info-list">
+        			<li class="contact-info">
+          				<i class="fa-solid fa-mug-hot"></i>
+          				<p>Freshly brewed and made with love</p>
+        			</li>
+        			<li class="contact-info">
+          				<i class="fa-solid fa-truck"></i>
+          				<p>Fast and warm delivery right to your doorstep</p>
+        			</li>
+       				<li class="contact-info">
+          				<i class="fa-solid fa-clock"></i>
+          				<p>Open 10:00 AM – 10:00 PM, Monday to Saturday</p>
+        			</li>
+      			</ul>
+      			<form action="#" class="contact-form">
+        			<input type="text" placeholder="Your Name" class="form-input" required>
+        			<input type="email" placeholder="Your Email" class="form-input" required>
+        			<select class="form-input" required>
+          				<option value="">Select your coffee</option>
+          				<option value="Cappuccino">Cappuccino</option>
+          				<option value="Mocha">Mocha</option>
+         				<option value="Americano">Americano</option>
+          				<option value="Frappé">Frappé</option>
+          				<option value="Dalgona">Dalgona Coffee</option>
+          				<option value="Matcha">Matcha Latte</option>
+        			</select>
+        			<input type="number" placeholder="Quantity" class="form-input" min="1" value="1" required>
+        			<textarea placeholder="Special instructions (optional)" class="form-input"></textarea>
+        			<button class="submit-button">Submit Order</button>
+      			</form>
+    		</div>
+	</section>
+  	<footer class="footer-section">
+    		<div class="section-content">
+      			<p class="copyright-text">
+        			©2025 Brew Haven Coffee. All rights reserved.
+      			</p>
+      			<p class="policy-text">
+        			<a href="#" class="policy-link">Privacy policy</a>
+        			<span class="seperator">·</span>
+        			<a href="#" class="refund-link">Refund policy</a>
+      			</p>
+    		</div>
+  	</footer>
+  	<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  	<script src="script.js"></script>
+</body>
+</html>
